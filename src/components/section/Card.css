@@ -1,0 +1,44 @@
+.container_card {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+.box_cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: var(--space-5);
+}
+
+.box_card_01,
+.box_card_02 {
+  background-color: var(--white);
+  width: var(--space-16);
+  height: var(--space-15);
+  margin: var(--space-5) 0;
+  border-radius: var(--space-3);
+}
+
+.title_card {
+  padding: var(--space-5) var(--space-5) 0;
+}
+
+.cut_card {
+  display: block;
+}
+
+.text_card {
+  padding: var(--space-3) var(--space-5);
+  line-height: var(--space-4);
+  font-size: var(--font-sm);
+}
+
+.btn_learn_more {
+  padding: var(--space-3) var(--space-8);
+  border: none;
+  border-radius: var(--space-3);
+  background-color: var(--orange);
+  cursor: pointer;
+}
