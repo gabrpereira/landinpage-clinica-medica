@@ -4,7 +4,8 @@ function Card_02() {
       <h3>Profissionais experientes</h3>
       <p>Nossos médicos têm anos de experiência em diversas áreas médicas</p>
     </div>
+  
   );
 }
-
-export default Card_02;
+  
+  export default Card_02;
