@@ -1,6 +1,19 @@
 .container_menu_p_01 {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
 }
 
+.title_menu_p_01 {
+  padding: var(--space-3);
+}
+
+.cut_menu_p_01 {
+  display: block;
+}
+
+.text_menu_p_01 {
+  font-size: var(--font-md);
+  padding: 0  var(--space-3) var(--space-3);
+}

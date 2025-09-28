@@ -2,55 +2,64 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--f-fam);
 }
 
 body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--white);
-}
-
-:root{
-    --white: #FCFCFC;
-    --black: #1C2228;
-    --blue: #E5EEf5;
-    --orange: #FD957C;
-    --cinza: #4F5D64;
-}
-
-:root { 
-    --space-1:  0.25rem; /*  4px  */
-    --space-2:  0.5rem;  /*  8px  */
-    --space-3:  1rem;    /* 16px  */
-    --space-4:  1.5rem;  /* 24px  */
-    --space-5:  2rem;    /* 32px  */
-    --space-6:  2.5rem;  /* 40px  */
-    --space-7:  3rem;    /* 48px  */
-    --space-8:  3.5rem;  /* 56px  */
-    --space-9:  4rem;    /* 64px  */
-    --space-10: 5rem;    /* 80px  */
-    --space-11: 5.5rem;  /* 88px  */    
-    --space-12: 6rem;    /* 96px  */
-    --space-13: 6.5rem;  /* 104px */
-    --space-A4: 9rem;    /* 144px */
-    --space-14: 10rem;   /* 160px */
-    --space-15: 17.5rem; /* 280px */
-    --space-16: 20rem;   /* 320px */
-    --space-17: 25rem;   /* 400px */
+  background-color: var(--blue);
+  background: linear-gradient(
+      rgba(229, 238, 245, 0.8),
+      rgba(229, 238, 245, 0.8)
+    ),
+    url("../assets/background.avif");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 var(--space-14);
 }
 
 :root {
-    --font-xs: 0.75rem;  /* 12px  */
-    --font-sm: 0.875rem; /* 14px  */
-    --font-md: 1rem;     /* 16px  */
-    --font-lg: 1.25rem;  /* 20px  */
-    --font-xl: 1.5rem;   /* 24px  */
-    --font-xxl: 2rem;    /* 32px  */
-    --font-hero: 3rem;   /* 48px  */
+  --black: #1c2228;
+  --blue: #e5eef5;
+  --white: #fcfcfc;
+  --orange: #fd957c;
+  --cinza: #4f5d64;
 }
 
 :root {
-    --f-fam: "Raleway", sans-serif;
+  --space-1: 0.25rem; /*  4px  */
+  --space-2: 0.5rem; /*  8px  */
+  --space-3: 1rem; /* 16px  */
+  --space-4: 1.5rem; /* 24px  */
+  --space-5: 2rem; /* 32px  */
+  --space-6: 2.5rem; /* 40px  */
+  --space-7: 3rem; /* 48px  */
+  --space-8: 3.5rem; /* 56px  */
+  --space-9: 4rem; /* 64px  */
+  --space-10: 5rem; /* 80px  */
+  --space-11: 5.5rem; /* 88px  */
+  --space-12: 6rem; /* 96px  */
+  --space-13: 6.5rem; /* 104px */
+  --space-A4: 9rem; /* 144px */
+  --space-14: 10rem; /* 160px */
+  --space-15: 17.5rem; /* 280px */
+  --space-16: 20rem; /* 320px */
+  --space-17: 25rem; /* 400px */
+}
+
+:root {
+  --font-xs: 0.75rem; /* 12px  */
+  --font-sm: 0.875rem; /* 14px  */
+  --font-md: 1rem; /* 16px  */
+  --font-lg: 1.25rem; /* 20px  */
+  --font-xl: 1.5rem; /* 24px  */
+  --font-xxl: 2rem; /* 32px  */
+  --font-hero: 3rem; /* 48px  */
+}
+
+:root {
+  --f-fam: Arial, Helvetica, sans-serif;
 }
