@@ -12,7 +12,7 @@ function Card() {
               necessidades.
             </p>
           </div>
-          <div className="box_card_01">
+          <div className="box_card_02">
             <h3 className="title_card">Profissionais <span className="cut_card">experientes</span></h3>
             <p className="text_card">
               Nossos médicos têm anos de experiência em sectionersas áreas médicas
