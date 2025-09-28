@@ -19,9 +19,18 @@
   height: var(--space-15);
   margin: var(--space-5) 0;
   border-radius: var(--space-3);
+  border: 1px outset var(--white);
+  transition: transform 0.2s ease-in-out;
 }
 
+.box_card_01:hover,
+.box_card_02:hover {
+  transform: translateY(-4px);
+}
+
+
 .title_card {
+  color: var(--orange);
   padding: var(--space-5) var(--space-5) 0;
 }
 
@@ -33,12 +42,20 @@
   padding: var(--space-3) var(--space-5);
   line-height: var(--space-4);
   font-size: var(--font-sm);
+  color: var(--cinza);
 }
 
 .btn_learn_more {
-  padding: var(--space-3) var(--space-8);
+  padding: var(--space-3) var(--space-5);
   border: none;
   border-radius: var(--space-3);
   background-color: var(--orange);
+  color: var(--white);
   cursor: pointer;
+}
+
+.btn_learn_more:hover {
+  background-color: var(--orange-hover);
+  color: var(--black);
+  transition: 1s;
 }
