@@ -42,7 +42,7 @@
   padding: var(--space-3) var(--space-5);
   line-height: var(--space-4);
   font-size: var(--font-sm);
-  color: var(--cinza);
+  color: var(--black);
 }
 
 .btn_learn_more {
