@@ -1,0 +1,50 @@
+/* Estilos para o componente Horario */
+
+.horario-section {
+  padding: var(--space-8) var(--space-4); /* 56px vertical, 24px horizontal */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.horario-divider {
+  border: 0;
+  border-top: 1px solid #ccc; /* Linha cinza claro */
+  margin: 0 auto var(--space-5) auto; /* Espaço abaixo da linha */
+  width: 50%;
+}
+
+.horario-title {
+  font-size: var(--fonte-lg); /* 20px */
+  font-weight: 600;
+  margin-bottom: var(--space-2); /* 8px - espaço menor para o subtitle */
+  color: #000000; 
+  text-align: center;
+}
+
+.horario-subtitle {
+  font-size: var(--fonte-md); /* 16px */
+  color: #4a4a4a;
+  text-align: center;
+  margin-bottom: var(--space-4); /* 24px - espaço antes do botão */
+}
+
+/* Botão de Agendamento (CTA) */
+.horario-cta-button {
+  background-color: #f84a1f;
+  color: #ffffff;
+  padding: var(--space-3) var(--space-5); /* 16px 32px */
+  border-radius: var(--space-2); /* 8px */
+  text-decoration: none;
+  font-weight: 600;
+  font-size: var(--fonte-md); /* 16px */
+  transition: all 0.2s ease;
+  display: inline-block;
+  box-shadow: 0 2px 8px rgba(248, 74, 31, 0.3);
+}
+
+.horario-cta-button:hover {
+  background-color: #e03d0f; /* Tom mais escuro no hover */
+  transform: translateY(-2px); /* Efeito sutil de elevação */
+  box-shadow: 0 4px 12px rgba(248, 74, 31, 0.4);
+}

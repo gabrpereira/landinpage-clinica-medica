@@ -16,7 +16,7 @@
 }
 
 .text_menu_p_01 {
-  color: var(--cinza);
+  color: var(--black);
   font-size: var(--font-md);
   padding: 0  var(--space-3) var(--space-3);
   line-height: var(--space-4);
