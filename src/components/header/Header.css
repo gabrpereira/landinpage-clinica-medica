@@ -1,0 +1,44 @@
+
+
+/* Header container */
+.header {
+  border-radius: var(--space-3);
+  background-color: #ffffff;
+  padding: var(--space-4);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: var(--space-4) 0;
+  z-index: 100;
+  width: 672px;
+}
+
+
+/* Logo ou nome da clínica */
+.logo {
+  color: var(--orange);
+  font-size: var(--font-lg);
+  
+}
+
+/* Navegação */
+
+.h1{
+  padding: 0 var(--space-2);
+}
+
+
+/* Botões */
+.nav-button {
+  color: var(--cinza);
+  padding: 0 var(--space-3);
+  cursor: pointer;
+  border: none;
+}
+
+/* Efeito hover */
+.nav-button:hover {
+  color: var(--orange-hover);
+  transition: 1s;
+}
